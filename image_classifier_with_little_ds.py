@@ -50,8 +50,9 @@ top_model_weights_path = 'vgg16_weights_tf_dim_ordering_tf_kernels_notop.h5'
 
 # dimensions of our images.
 img_width, img_height = 150, 150
-train_data_dir = '/home/meareg/Documents/Meareg_file/Pose estimation related/Codes/Keras Codes/keras image classifier/data/train'
-validation_data_dir = '/home/meareg/Documents/Meareg_file/Pose estimation related/Codes/Keras Codes/keras image classifier/data/validation'
+datapath = os.getcwd()
+train_data_dir = datapath + '/data/train'
+validation_data_dir = datapath + '/data/validation'
 nb_train_samples = 2000
 nb_validation_samples = 802
 epochs = 3#50

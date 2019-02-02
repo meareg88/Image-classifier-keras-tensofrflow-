@@ -42,6 +42,7 @@ from keras import optimizers
 from keras.models import Sequential, Model
 from keras.layers import Dropout, Flatten, Dense, Input, Conv2D, MaxPooling2D, Activation
 import keras 
+import os
 
 keras.backend.set_image_dim_ordering('tf')
 # path to the model weights files.
